@@ -1,0 +1,20 @@
+{
+  "selected_model": "logistic_regression",
+  "test": {
+    "roc_auc": 0.7152424279088526,
+    "pr_auc": 0.3368052780882671,
+    "brier": 0.11225510068377006,
+    "base_rate": 0.145
+  },
+  "business": {
+    "assumptions": {
+      "cost_per_patient": 500.0,
+      "readmission_cost": 15000.0,
+      "relative_risk_reduction": 0.2
+    },
+    "top_decile_lift": 2.662068965517242,
+    "top_20pct_share_of_readmissions": 0.4289655172413793,
+    "best_enrollment_fraction": 0.3,
+    "net_savings_per_1k_discharges_at_best": 96000.0
+  }
+}
